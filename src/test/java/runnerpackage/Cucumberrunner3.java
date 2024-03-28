@@ -5,7 +5,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src//test//resources//Features//Googlesearch.feature",glue={"cucumberstepDefnitation"})
+@CucumberOptions(features="C://Users//admin//eclipse-workspace//Cucumberrealtimeframework//src//test//resources//Features//login.feature")
 public class Cucumberrunner3 
 {
 

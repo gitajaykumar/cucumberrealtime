@@ -1,18 +1,13 @@
-#Author
-#Date
-#Description
+
+Feature: Title of your feature
+  
+
  
- 
- 
- 
- @SmokeFeature
- Feature: feature to test login functionality
- 
- 
- @smoketest
- Scenario: Check login successful with valid credentials
- 
- Given user is on login page
- When user enters username and password
- And clicks on login button
- Then user is navigate to the home page 
+  Scenario: user valid credentials successfuly
+    Given user open browser
+    When user enter the url "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+    And user enter the username "Admin" password "admin123"
+    And click the button
+    Then user navigate page
+
+  
