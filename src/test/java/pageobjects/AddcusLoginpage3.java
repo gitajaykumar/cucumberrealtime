@@ -216,6 +216,8 @@ public class AddcusLoginpage3
      public void savebuttonclick()
      {
     	 savebutton_click.click();
+
+	     system.out.println("Done")
     	 
      }
 	
